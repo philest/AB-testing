@@ -1,0 +1,96 @@
+  <style>
+
+
+
+
+
+
+
+</style>
+
+
+
+<!-- Modal Signup -->
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> -->
+<div class="modal fade" id="signupSchoolRole" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" data-dismiss="modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- <div class="navbar-logo" id="modal-logo"></div> -->
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-signup-heading">Sign up for ReadUp as a...</h2>
+        <!-- <h3 class="modal-signup-heading">to add your class</h3> -->
+        <form id="signup-school-role" class="signup-form" style="display: none;">
+          <input type="hidden" name="role" value="">
+        </form>
+
+
+        <!-- correct form -->
+        <div class="pure-g">
+          <div id="signupChooseTeacher" class="pure-u-1 pure-u-sm-1-2">
+            <div class="inner-apple-wrapper">
+              <img id="first-apple" src="/images/fresh-apple-icon.png" alt="">
+              <p class="role-title">Teacher</p>
+
+            </div>
+          </div>
+
+          <div id="signupChooseAdmin" class="pure-u-1 pure-u-sm-1-2">
+            <div class="inner-apple-wrapper">
+              <img id="last-schoolhouse" src="/images/schoolhouse-icon.png" alt="">
+              <p class="role-title">School Leader</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <!-- correct form -->
+
+
+        <script type='text/javascript'>
+
+            $('#signupChooseTeacher').click(function(event){
+              // add a hidden input to this form with 'teacher' as role
+              $('body').addClass('modalTransition');
+              $('#signupSchoolRole').modal('toggle');
+              // $("body").addClass("hide-scroll");
+              // var role = $('<input>')
+              //     .attr('type', 'hidden')
+              //     .attr('name', 'role')
+              //     .val('teacher');
+
+              $('form#signup-school-role').find('input[name=role]').val('teacher');
+
+              $('#signupSignature').modal('toggle');
+            });
+
+            $('#signupChooseAdmin').click(function(event){
+              // add a hidden input to this form with 'admin' as role
+              $('body').addClass('modalTransition');
+              $('#signupSchoolRole').modal('toggle');
+              // $("body").addClass("hide-scroll");
+              // var role = $('<input>')
+              //     .attr('type', 'hidden')
+              //     .attr('name', 'role')
+              //     .val('admin');
+              // $('form#signup-school-role').append($(role));
+
+              $('form#signup-school-role').find('input[name=role]').val('admin');
+              
+              $('#signupSignature').modal('toggle');
+            });
+
+        </script>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Modal Signup-->

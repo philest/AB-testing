@@ -1,0 +1,147 @@
+
+div#fake-nav {
+	min-height: 75px;
+}
+
+h2.our_team {
+	font-family: 'Karla';
+	font-size: 2em;
+	color: #4a4a4a;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 2em;
+
+}
+
+.team h2#people {
+	font-family: 'Karla'; 
+	font-size: 1.8em;
+	margin-bottom: 0px;
+
+}
+
+div.team-text{
+	text-align: left;
+	width: 60%;
+}
+
+
+@media (max-width: 48em) {
+	div.team-text{
+		text-align: left;
+		width: 90%;
+		/*margin: 0 auto;*/
+	}
+}
+
+
+
+@media (max-width: 35.5em) {
+	div.team-text{
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+h2#people a:hover {
+/*    color: #ed7844;
+uncomment to take off the hover color change on team names
+
+*/}
+
+
+.team h2#role {
+	font-family: 'Karla'; 
+    color: #4a4a4a;
+    font-size: 1.5em;
+   	font-weight: 800;
+   	margin-top: 0px;
+   	font-variant: small-caps;
+
+
+}
+
+
+div.full-name h2 {
+	font-family: 'Karla'; 
+}
+
+
+
+.team_profile img {
+	width: 19em;
+}
+
+
+@media screen and (max-width: 35.5em) {
+
+	.the-product .text h2 {
+		display: block;
+	}
+
+}
+
+
+a {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+a:visited {
+	color: #337ab7;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #23527c;
+}
+
+#favorite-book-colon {
+	margin-bottom: 0px;	
+}
+
+
+#favorite-book-answer {
+	margin-top: 0px;
+}
+
+span#favorite-book-title {
+	font-style: italic;
+	font-weight: 100;
+}
+
+
+h1#call-to-action.banner {
+	margin-top: 2em;
+}
+
+button#start-modal-button.demo-request-button {
+	margin-bottom: 4em;
+
+}
+
+p#hiring-call {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+
+
+@media (min-width: 450px) {
+
+	p#hiring-call {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+}
+
+
+

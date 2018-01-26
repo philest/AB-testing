@@ -1,0 +1,65 @@
+<style>
+
+
+</style>
+
+
+
+<!-- Modal Signup -->
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> -->
+<div class="modal fade" id="chooseRoleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="navbar-logo" id="modal-logo"></div>
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-signup-heading">Sign up for ReadUp as a...</h2>
+        <!-- <h3 class="modal-signup-heading">to add your class</h3> -->
+
+        <div class="pure-g">
+          <div id="chooseTeacher" class="pure-u-1 pure-u-sm-1-2">
+            <div class="inner-apple-wrapper">
+              <img id="first-apple" src="/images/fresh-apple-icon.png" alt="">
+              <p class="role-title">Teacher</p>
+
+            </div>
+          </div>
+
+          <div id="chooseAdmin" class="pure-u-1 pure-u-sm-1-2">
+            <div class="inner-apple-wrapper">
+              <img id="last-schoolhouse" src="/images/schoolhouse-icon.png" alt="">
+              <p class="role-title">School Leader</p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <script type='text/javascript'>
+
+            $('#chooseTeacher').click(function(event){
+              $('body').addClass('modalTransition');
+              $('#chooseRoleModal').modal('toggle');
+              // $("body").addClass("hide-scroll");
+              $('#modalSig').modal('toggle');
+            });
+
+            $('#chooseAdmin').click(function(event){
+              $('body').addClass('modalTransition');
+              $('#chooseRoleModal').modal('toggle');
+              // $("body").addClass("hide-scroll");
+              $('#adminSig').modal('toggle');
+            });
+
+        </script>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Modal Signup-->

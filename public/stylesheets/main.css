@@ -1,0 +1,1072 @@
+/*exp*/
+html{ font-size:100%; }
+
+body {
+  font-size: 1em;
+}
+
+
+/* BELOW FOLD */
+label.error {
+	color: #C63442;
+    font-weight: bold;
+}
+
+.the-problem .text h2, .the-product .text h2, .join-us .text h2 {
+	font-size: 24px;
+	color: #ed7a44;
+	font-family: 'Karla'
+}
+
+@media screen and (max-width: 35.5em) {
+	h2 {
+	    font-family: "Karla";
+	}
+}
+
+/*END BELOW FOLD*/
+
+
+
+@media (min-width: 1600px) {
+	.main-container {
+		max-width: 1600px;
+	}
+}
+
+.main-container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+
+@media (min-width: 1020px) {
+	.container {
+	    width: 970px;
+	}
+}
+
+
+/*@media (min-width: 1200px) {
+	.container {
+	    width: 1170px;
+	}
+}
+*/
+
+.email a#more_team p{
+	text-align: center;
+	font-size: .9em;
+	color: #4a4a4a;
+
+}
+
+.email a#more_team:hover p{
+	color: #ed7844;
+}
+
+
+/*.navbar {
+	min-height: 100px;
+}
+*/
+
+.navbar-logo {
+	background-image: url("/images/modules/bird.gif");
+	background-size: 90px 72px;
+	background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 110px;
+    width: 82px;
+}
+
+
+.nav > li {
+	position: relative; 
+    display: block; 
+}
+
+
+
+
+
+
+
+
+
+h1 {
+	font-family: 'Karla';
+	font-weight: 100;
+	margin-top: -.1em;
+	line-height: 1.3em;
+/*	color: #4a4a4a;
+*/
+	color: #4a4a4a;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+
+
+
+h1.storytime-tagline {
+	margin-top: -.1em;
+	font-weight: 100;
+	margin-top: -.1em;
+	line-height: 1.3em;
+	color: #4a4a4a;
+	text-align: center;
+	font-size: 1.7em;
+
+
+}
+
+h1.banner {
+	text-align: center;
+    margin-bottom: -2em;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: karla;
+    font-weight: bold;
+    color: #4a4a4a;
+
+
+
+}
+
+
+#logo-new{
+	width: 13em;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#splash {
+    padding-top: 1em;
+	text-align: left;
+	/*large screen only*/
+	/*height: 36em;*/
+
+}
+
+.bottom #splash {
+    padding-top: 3em;
+}
+
+
+#splash .animation img{
+	width: 14em;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 1.5em;
+}
+
+
+
+
+.bottom #splash .animation img{
+		width: 16em;
+}
+
+.banner-text {
+	width: 35em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+h2#people a {
+	text-decoration: none;
+	color: #ed7844;
+}
+
+h2#people a:visited {
+	color: #ed7844;
+}
+
+h2#people a:hover {
+    color: #4a4a4a;
+}
+
+a .bottom button#join {
+
+	font-size: 1.2em;
+	text-align: center;
+	}
+
+.bottom a{
+	text-decoration: none;
+}
+
+.meta-block button#join{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#join {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	font-weight: 800;
+}
+
+
+
+@media screen and (min-width: 583px)	{
+	
+
+
+	#splash {
+		padding-top: 3em;
+	}
+
+	.splash h1.storytime-tagline span {
+	font-weight: 700;
+	}
+
+
+	#splash .animation {
+		position: relative;
+	}
+
+
+	#splash .animation img{
+		position: relative;
+		width: 15em;
+		margin-top: 2em;
+	}
+
+	.bottom #splash .animation img{
+		position: relative;
+		width: 18em;
+		margin-top: 2em;
+	}
+
+
+
+	h1.storytime-tagline {
+		text-align: center;
+		font-size: 1.8em;
+	}
+
+	h1.banner{
+		font-size: 2.3em;
+	}
+
+	h1.banner#call-to-action{
+		font-size: 28px;
+	}
+
+
+
+	#logo-new {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 14em;
+		margin-top: 0px;
+	}
+
+	.partner-logos {
+		margin-top: -4em;
+		padding-bottom: 4em;
+	}
+
+	/*for partner*/
+	.logo {
+		margin-left: 12px;
+	}
+
+
+
+
+}
+
+@media screen and (min-width: 48em)	{
+	#splash .animation {
+	    display: block;
+	    margin-left: auto;
+	}
+
+	.bottom .splash {
+		margin-top: 1.5em;
+	}
+
+	.bottom #splash {
+		height: 33em;
+	}
+
+	.bottom .splash-text {
+/*		margin-left: 5%;
+*/	}
+
+
+	#splash .animation img{
+		width: 20em;
+	}
+
+
+	h1.storytime-tagline {
+		text-align: left;
+		font-size: 2.3em;
+	}
+
+	h1.banner#call-to-action{
+		font-size: 28px;
+	}
+	
+	#logo-new {
+		margin-right: 0;
+		margin-left: 0;
+		width: 20em;
+		margin-top: 5em;
+
+	}
+
+	.bottom button#join {
+		display: inline-block;
+		font-size: 1.3em;
+		margin-left: 34px;
+	}
+
+
+	.email a#more_team p {
+		text-align: left;
+		font-size: 1.25em;
+		margin-left: 62px;
+	}
+
+
+
+	.bottom img#logo-new {
+		margin-top: 2.2em;
+	}
+
+	#join {
+		margin-top: 1em;
+		margin-bottom: 0px;
+		font-weight: 800;
+	}
+
+
+
+}
+
+@media screen and (min-width: 64em)	{
+
+
+	.bottom #splash .animation img{
+		width: 21em;
+	}
+
+}
+
+
+
+#splash .animation img{
+	display: block;
+}
+
+
+#splash_text {
+	height: 45em;
+	margin-top: -5em;
+}
+
+
+
+
+
+	
+
+/* header ******************************************************** */
+
+#logo {
+	width: 20em;
+	margin: 2.3em 0px;
+}
+
+.catch_phrase h2 { 
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    margin-top: -1.5em;
+    color: rgba(0,0,0,0.75); /*dark grey*/
+}
+
+
+.overlap {
+	background-image: url('../images/modules/clouds_wide_with_birds_large.png');
+	height: 100%;
+	width: 100%;
+    background-attachment: fixed;
+	display: block;
+	overflow: hidden;
+
+}
+
+/* main container for table positioning */
+.wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center; 
+}
+
+.wrapper .footer .bottom {
+	margin-bottom: -12em;
+}
+/* subcontainer for table positioning */
+.main {
+	display: table;
+	/* make height 60-70%, making room for full-width div for grass at the bottom*/
+
+	height: 25em;
+	width: 100%;
+}
+
+.main h1 {
+	font-size: 4em;
+	color: #ed7844;
+}
+
+.column {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.logo {
+	display: inline-block;
+	/* Yale logo doesn't enter a new row when width is below 31%. */
+	width: 31%;
+	margin: 0 auto;
+	margin-left: -5px
+
+}
+
+.partner-logos img {
+	display: block;
+	width: 6em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7.5em;
+	/*display: table-cell;*/
+}
+/* logo positioning */
+.left img {
+	float: right;
+}
+
+.right img {
+	float: left;
+}
+
+/*****************************************************************************************/
+
+
+
+
+
+/* footer  ********************************************************************** */
+
+.partner-logos {
+	/*display: table;*/
+	margin: 0 auto;
+    margin-top: -2.5em;
+    margin-right: 15px;
+    margin-left: 15px;
+
+	padding-bottom: 2em;
+	background-color: rgba(255,255,254,1);
+}
+
+
+
+/*****************************************************************************************/
+
+
+
+/* video  ********************************************************************** */
+
+section.video iframe { 
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 750px;
+	height: 422px;
+
+}
+section.video {
+	margin-top: -2.5em;
+	padding-bottom: 4em;
+}
+
+/*****************************************************************************************/
+
+
+/* sections ********************************************************************** */
+
+h2 {
+	font-size: 1.25em;
+}
+
+.divider {
+	width: 100%; 
+	padding-top: 2em;
+	
+}
+
+#divider-mobile {
+	display: none;
+}
+
+.divider div {
+	display: block; 
+	width: 15%;
+	margin: 0 auto;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+span a {
+	text-decoration: none;
+	color: #ed7844;
+	
+}
+
+.divider-mini {
+	width: 100%; 
+	
+}
+
+.divider-mini div {
+	display: block; 
+	width: 10%;
+	margin: 0 auto;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+
+.text {
+	line-height: 1.8em;
+}
+
+.txt_inner {
+	min-width: 20em;
+}
+
+
+
+
+
+
+
+.the-problem .text h2, .the-product .text h2, .join-us .text h2 {
+	font-family: 'Karla'; 
+	color: #ed7844;
+	font-size: 24px;
+}
+
+
+.phone img {
+	float: right;
+	width: 23em;
+}
+
+.prize img {
+	max-width: 300px;
+	float: right;
+	padding-right: 15%;
+}
+
+.the-product .text {
+	text-align: left;
+}
+.the-product .phone img {
+    padding-right: 35px;
+}
+
+div.section-header {
+	width: 100%;
+	visibility: hidden; 
+	text-align: center;
+	font-size: 1.8em;
+	color: #ed7844;
+}	
+
+
+section {
+	padding-bottom: 0px;
+}
+
+
+a#more_team p{
+	font-weight: 800;
+	color: #ed7844;
+	font-size: 1.25em;
+
+}
+
+a#more_team {
+	text-decoration: none;
+}
+
+a#more_team:visited {
+	color: #ed7844;
+}
+
+a#more_team:hover p{
+	color: #4a4a4a;
+}
+
+
+
+
+.progress {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: sans-serif;
+	min-height: 15em; 
+	padding-top: 3.5em;
+	font-size: 1.3em;
+
+}
+
+
+
+
+/*****************************************************************************************/
+
+body {
+	font-family: 'Karla'; 
+	background-color: rgba(255,255,254,1)
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+/*    font-size: 1.12em;
+*/    line-height: 1.6;
+    color: rgba(0,0,0,0.85);
+
+}
+
+fieldset p {
+	max-width: 20em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+fieldset input {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.join-us .text {
+	text-align: left;
+	float: right;
+}
+
+
+
+button.get_update{
+	background-color: #ed7844; 
+	font-family: 'Karla', sans-serif;
+}
+
+section.progress h4 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.4em;
+	font-weight: 200;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 26em;
+	color: #4a4a4a;
+}
+
+section.progress.text {
+	padding-bottom: 2em;
+}
+
+span {
+	font-weight: bold;
+}
+
+span.italic {
+	font-style: italic;
+	font-weight: normal
+}
+
+h4 span a{
+	font-family: 'Karla'; 
+	color: #ed7844;
+
+}
+
+.partners img { 
+	
+	padding-top: 1.5em;
+	min-width: 150px;
+	max-width: 330px;
+	float: left;
+	padding-left: 20%;
+}
+
+.dash img {
+	padding-top: 1.5em;
+    min-width: 181px;
+    max-width: 370px;
+    float: left;
+    padding-left: 10%;
+}
+
+.globe  img { 
+	
+	min-width: 13em;
+	max-width: 15em;
+	display: inline-block;
+}
+
+
+.v-align {
+	display: table;
+}
+
+.v-align .text {
+	display:table-cell; 
+	vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 64em) {
+	.text {
+		width: 80%;
+	}
+	.partners img {
+		width: 80%;
+	}	
+	
+	.dash img { 
+		width: 88%;
+ 	}
+
+	.plane {
+		display: none;
+	}
+
+	.prize img {
+		width: 80%;
+		padding-right: 15%;
+		/*min-width: 250px;*/
+	}
+
+	#divider-mobile {
+		display: none;
+	}
+
+
+	.divider div {
+		display: block; 
+		width: 25%;
+		margin: 0 auto;
+		border-bottom: 1px solid #AAAAAA;
+	}
+
+}
+
+@media screen and (max-width: 48em) {
+
+	section.video iframe {
+		width: 568px;
+		height: 320px;
+	}
+
+	#divider-mobile {
+		display: none;
+	}
+
+}
+
+
+
+
+ /*Iphone-ish mobile*/
+@media screen and (max-width: 35.5em) {
+
+
+
+	#logo{
+		width: 17em;
+		margin: 1.8em 0;
+	}
+
+
+	.text {
+		height: 33%;
+	}
+
+	.partner-loops {
+		display: none; 	
+	}
+	
+
+	.banner {
+		font-size: 2em; /*added for Karla*/
+		padding-left: .15em;
+		padding-right: .15em;
+	}
+
+	h1.banner#call-to-action{
+		font-size: 22px;
+	}
+
+	.txt_inner {
+		/* TEMPORARY SOLUTION. Next step: vertically align */ 
+		padding-top: 3em;
+	}
+
+	div.column.bed {
+		display: none;
+	}
+
+	#bedframe {
+		float: none;
+		display: none;
+	}
+
+	h2 {
+		font-family: "Karla";
+	}
+
+	.the-problem .text, .the-product .text {
+		text-align: center;
+		float: none;
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		
+		padding-right: 0em;
+		line-height: 1.5em;
+	}
+
+	 h2#the_problem {
+		margin-bottom: 0px;
+	}
+
+	.the-problem p {
+		margin-top: -.3em;
+	}
+
+
+	.the-product p {
+		padding-top: .5em;
+	}
+
+	.v-align .text {
+		position: relative;
+		text-align: center;
+		float: none;
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		
+		padding-right: 0em;
+		line-height: 1.5em;
+	}
+
+	section.video iframe {
+		width: 300px;
+		height: 169px;
+	}
+	.the-product .phone img {
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+    	float: none;
+    	padding-right: 0%;
+		width: 50%;
+	}
+
+	.the-problem .girl img {
+		max-width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+
+	div.section-header {
+		visibility: visible;
+	}
+
+	.divider {
+		display: none;
+	}
+
+	#divider-mobile {
+		display: block;
+		padding-top: 0;
+	}
+
+
+	.globe img {
+		width: 80%;
+		min-width: none;
+		max-width: none;
+
+	}
+
+
+	.partners img, .prize img { 
+	
+		padding-top: 0px;
+		min-width: 10em;
+		max-width: 18em;
+		width: 80%;
+		display: block;
+		padding-left: 0px;
+		padding-right: 0px;
+		float: none;
+		margin: 0 auto;
+
+	}
+
+	.partners img {
+		padding-top: 1.5em;
+	}
+
+	section {
+		padding-bottom: none;
+	}
+
+	section.progress h4 {
+		font-family: 'Karla', sans-serif;
+		font-size: 1.1em;
+		font-weight: 200;
+	}
+
+
+	.main h1 {
+		font-size: 3.3em;
+		color: #ed7844;
+	}
+
+	section.progress span.final h4 {
+		font-style: normal;
+		margin-top: 0px;
+	}
+
+	#padded-img{
+		padding-top: 1.2em;
+	}
+
+}
+
+
+@media screen and (min-width: 568px) and (max-width: 568px)	{
+
+	#padded-img {
+		max-width: 90%;
+		padding-top: 2em;
+	}
+
+	.the-problem p {
+		margin-top: 2em;
+		text-align: left;
+	}
+
+	.the-product p {
+		text-align: right;
+	}
+
+	p.partners {
+		text-align: left;
+	}
+
+
+
+}
+
+
+@media screen and (min-width: 35.5em)	{
+
+
+
+}
+
+@media screen and (min-width: 48em)	{
+
+	#splash .hero-animation img{
+		margin-left: 0px;
+	    margin-right: 0px;
+	}
+
+	
+
+	#splash .hero-splash-text-container {
+		margin-left: auto;
+	}
+
+}
+
+@media screen and (min-width: 768px)	{
+	
+
+}
+
+@media screen and (min-width: 64em)	{
+
+	#splash .bottom_globe  img{
+   		margin-left: auto;
+   		margin-right: 0px;
+
+	}
+		
+		/*change it from off-center*/
+	#splash .globe-text {
+		padding-left: 5%;
+	    width: 45%;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

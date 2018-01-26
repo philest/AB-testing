@@ -1,0 +1,41 @@
+      <!-- Modal Signup -->
+      <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> -->
+      <div class="modal fade" id="signupEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="width: 35em;">
+          <div class="modal-content" style="margin-top: 20%;">
+            <!-- <div class="modal-header" data-dismiss="modal">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="navbar-logo" id="modal-logo"></div>
+            </div> -->
+            <div class="modal-body" style="padding-bottom:1.5em;">
+              <h2 class="modal-signup-heading" style="color:#4A4A4A;">Welcome to ReadUp!</h2>
+              <!-- <h3 class="modal-signup-heading">Welcome to StoryTime</h3> -->
+
+              <form id="signup-email" class="signup-form"> 
+                <div class="signup-setup">
+                  <div class="field" id="signup-field">
+                    <input name="usernameDisplay" placeholder="Enter your email or phone number" class="input" required>
+                    <input type="hidden" name='username'>
+                    </div>
+                    <!-- <button id="join" data-dismiss='modal' data-toggle='modal' data-target="#modalSig"  class="signup-form-button pure-button pure-button-prry get_update dialog-button">Log in</button> -->
+
+                    <button id="signup-email-button" data-dismiss='modal' class="signup-form-button pure-button pure-button-primary get_update dialog-button">Continue</button>
+                </div>
+
+                <script>
+                  $('form#signup-email input[name=usernameDisplay]').change(function(event) {
+                    var usernameDisplay = $('form#signup-email input[name=usernameDisplay]').val();
+                    $('form#signup-email input[name=username]').val(usernameDisplay);
+                  });
+                </script>
+
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end Modal Signup-->

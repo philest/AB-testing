@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>StoryTime | Free Children's Books Online for Teachers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="StoryTime is a free app that lets teachers send children's books to families on any phone. It is shown to build literacy and double reading at home.">
+
+    <meta property="og:image" content="https://s3.amazonaws.com/st-webpage/assets/st-og-image-3.png">
+    <meta property="og:title" content="StoryTime | Books by Text">
+    <meta property="og:description" content="StoryTime is a free app that lets teachers send children's books to families on any phone. It is shown to build literacy and double reading at home.">
+
+    <script async type="text/javascript" src="/js/analytics.js"></script>
+    <script async type="text/javascript" src="/js/mixpanel.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script async type="text/javascript" src="/js/fb-pixel.js"></script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=538021079920031&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    
+
+    <!-- Bootstrap modal files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/imports/bootstrap.min.css">
+
+    <!-- end Boostrap -->
+
+    <!-- Jquery Mobile -->
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jquery ui stylesheets -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+    <!-- Include the jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+    <!-- jquery-ui -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- END Jquery Mobile -->
+
+
+    <!-- Load jQuery and  -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/additional-methods.js"></script>
+
+    <!-- Karla!!!! -->
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- <link rel="stylesheet" href="/stylesheets/main_new.css" type="text/css" /> -->
+
+    <link rel="stylesheet" href="/stylesheets/alert.css" type="text/css" />
+
+    <!-- <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" /> -->
+      
+
+    <link rel="stylesheet" href="/stylesheets/teacher-form-input.css" type="text/css" />
+
+    <link rel="stylesheet" href="/stylesheets/freemium-signup.css" type="text/css">
+
+
+    <link rel="stylesheet" href="/stylesheets/pure-push-pull.css" type="text/css" />
+
+    <link rel="stylesheet" href="/stylesheets/fonts.css" type="text/css">
+    
+    <link rel="stylesheet" href="/stylesheets/imports/pure-min.css">
+    <link rel="stylesheet" href="/stylesheets/imports/grids-responsive-min.css">
+    <!-- Favicon and App icon images -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- our scripts -->
+    <!-- <script type="text/javascript" src="/js/validations.js"></script> -->
+    <!-- <script type="text/javascript" src="/js/appendform.js"></script> -->
+
+    <script type="text/javascript">
+
+      $(document).ready(function () {
+        /** 
+         * Determine the user's timezone
+         */
+        function getUserTimezone() {
+          return (((new Date()).getTimezoneOffset() / 60) - 1) * -1
+        }
+
+        var timezone = getUserTimezone();
+
+        var tz = $('<input>')
+                  .attr('type', 'hidden')
+                  .attr('name', 'time_zone')
+                  .val(timezone);
+        $('#invite-teacher-form').append($(tz));
+        $('#school-info').append($(tz));
+
+        /**
+         * Determine the mobile operating system.
+         * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
+         *
+         * @returns {String}
+         */
+        function getMobileOperatingSystem() {
+          var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+              // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        }
+
+        var os = getMobileOperatingSystem();
+
+        // console.https://s3.amazonaws.com/st-webpage/assets/logo/logo-large.png(os);
+
+        var operating_system = $('<input>')
+                  .attr('type', 'hidden')
+                  .attr('name', 'mobile_os')
+                  .val(os);
+        $('#register').append($(operating_system));
+
+
+        // if (os.toLowerCase() == 'android') {
+        //   $('#app-link').attr('href', 'https://play.google.com/store/apps/details?id=com.mcesterwahl.storytime');
+        // }
+
+        // if (os.toLowerCase() == 'ios') {
+        //   $('#page3link').attr('href', '#page5');
+        // }
+
+      });
+
+    </script>
+
+    <style>
+        ul#navbar-header {
+            background-color: #59567F;
+        }
+    </style>
+
+</head>
+
+<body id="override">
+  <!-- navbar -->
+  <%= erb :'freemium-signup/role' %>
+  <%= erb :'freemium-signup/invite-teacher' %>
+  <%= erb :'freemium-signup/signature' %>
+  <%= erb :'freemium-signup/find-school' %>
+  <%= erb :'freemium-signup/school-info' %>
+  <%= erb :'freemium-signup/success' %>
+  <%= erb :'freemium-signup/go-to-dashboard' %>
+<footer>
+
+    <script>
+    </script>
+
+</footer>
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

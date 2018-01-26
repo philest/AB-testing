@@ -1,0 +1,421 @@
+# Logfile created on 2017-05-06 21:13:21 -0400 by logger.rb/54362
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Environment: development
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Dispatcher: sidekiq
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Application: development
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Installing Net instrumentation
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Installing Redis Instrumentation
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Installing Sequel instrumentation
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Installing Sidekiq instrumentation
+[2017-05-06 21:13:21 -0400 Phils-MacBook-Pro.local (84315)] INFO : Finished instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Environment: development
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Dispatcher: puma
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Application: development
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Net instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Sinatra instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Redis Instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Sequel instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Installing Sidekiq instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Finished instrumentation
+[2017-05-06 21:13:24 -0400 Phils-MacBook-Pro.local (84314)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-06 21:13:31 -0400 Phils-MacBook-Pro.local (84314)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-05-06 21:13:31 -0400 Phils-MacBook-Pro.local (84314)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Environment: development
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Dispatcher: sidekiq
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Application: development
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Installing Net instrumentation
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Installing Redis Instrumentation
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Installing Sequel instrumentation
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Installing Sidekiq instrumentation
+[2017-05-07 11:07:52 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Finished instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Environment: development
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Dispatcher: puma
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Application: development
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Net instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Sinatra instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Redis Instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Sequel instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Installing Sidekiq instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Finished instrumentation
+[2017-05-07 11:07:55 -0400 Phils-MBP.wireless.yale.internal (86877)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-07 11:07:59 -0400 Phils-MBP.wireless.yale.internal (86877)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-05-07 11:07:59 -0400 Phils-MBP.wireless.yale.internal (86877)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-05-07 11:15:23 -0400 Phils-MBP.wireless.yale.internal (86878)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-05-07 11:15:23 -0400 Phils-MBP.wireless.yale.internal (86878)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-05-07 17:33:23 -0400 Phils-MBP.wireless.yale.internal (86878)] INFO : Starting Agent shutdown
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Environment: development
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Dispatcher: sidekiq
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Application: development
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Installing Net instrumentation
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Installing Redis Instrumentation
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Installing Sequel instrumentation
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 11:10:22 -0400 Phils-MacBook-Pro.local (93083)] INFO : Finished instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Environment: development
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Dispatcher: puma
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Application: development
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Net instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Sinatra instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Redis Instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Sequel instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 11:10:26 -0400 Phils-MacBook-Pro.local (93082)] INFO : Finished instrumentation
+[2017-05-08 11:10:27 -0400 Phils-MacBook-Pro.local (93082)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-08 11:10:30 -0400 Phils-MacBook-Pro.local (93082)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-05-08 11:10:30 -0400 Phils-MacBook-Pro.local (93082)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Environment: development
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Dispatcher: sidekiq
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Application: development
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Installing Net instrumentation
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Installing Redis Instrumentation
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Installing Sequel instrumentation
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 11:15:28 -0400 Phils-MacBook-Pro.local (93163)] INFO : Finished instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Starting the New Relic agent in "development" environment.
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] WARN : No configuration file found. Working directory = /Users/philesterman/Code/readup
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] WARN : Looked in these locations (based on defaults): /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/Code/readup/config/newrelic.yml, /Users/philesterman/Code/readup/newrelic.yml, /Users/philesterman/.newrelic/newrelic.yml, /Users/philesterman/newrelic.yml
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Environment: development
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Dispatcher: puma
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Application: development
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Net instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Sinatra instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Redis Instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Sequel instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 11:15:31 -0400 Phils-MacBook-Pro.local (93162)] INFO : Finished instrumentation
+[2017-05-08 11:15:32 -0400 Phils-MacBook-Pro.local (93162)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-08 11:15:34 -0400 Phils-MacBook-Pro.local (93162)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-05-08 11:15:34 -0400 Phils-MacBook-Pro.local (93162)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-05-08 11:16:11 -0400 Phils-MacBook-Pro.local (93163)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-05-08 11:16:11 -0400 Phils-MacBook-Pro.local (93163)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-05-08 15:51:34 -0400 Phils-MacBook-Pro.local (93163)] INFO : Starting Agent shutdown
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Environment: development
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Dispatcher: sidekiq
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Application: My Application (Development)
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Installing Net instrumentation
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Installing Redis Instrumentation
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Installing Sequel instrumentation
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 16:43:57 -0400 Phils-MacBook-Pro.local (96776)] INFO : Finished instrumentation
+[2017-05-08 16:43:59 -0400 Phils-MacBook-Pro.local (96776)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Environment: development
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Dispatcher: puma
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Application: My Application (Development)
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Net instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Sinatra instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Redis Instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Sequel instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 16:44:00 -0400 Phils-MacBook-Pro.local (96775)] INFO : Finished instrumentation
+[2017-05-08 16:44:01 -0400 Phils-MacBook-Pro.local (96775)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-08 16:44:07 -0400 Phils-MacBook-Pro.local (96775)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-05-08 16:44:11 -0400 Phils-MacBook-Pro.local (96776)] INFO : Starting Agent shutdown
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Environment: development
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Dispatcher: sidekiq
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Application: My Application (Development)
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Installing Net instrumentation
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Installing Redis Instrumentation
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Installing Sequel instrumentation
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 17:06:38 -0400 Phils-MacBook-Pro.local (97203)] INFO : Finished instrumentation
+[2017-05-08 17:06:40 -0400 Phils-MacBook-Pro.local (97203)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Environment: development
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Dispatcher: puma
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Application: My Application (Development)
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Net instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Sinatra instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Redis Instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Sequel instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Finished instrumentation
+[2017-05-08 17:06:43 -0400 Phils-MacBook-Pro.local (97202)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-08 17:06:45 -0400 Phils-MacBook-Pro.local (97202)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-05-08 18:48:45 -0400 Phils-MacBook-Pro.local (97203)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 18:48:45 -0400 Phils-MacBook-Pro.local (97203)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.001417 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 18:48:45 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 18:48:45 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.001743 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 18:48:57 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-05-08 18:48:57 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.001873 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 18:48:57 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 18:48:57 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.001059 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 18:49:03 -0400 Phils-MacBook-Pro.local (97203)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-05-08 18:49:03 -0400 Phils-MacBook-Pro.local (97203)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.001142 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 18:49:03 -0400 Phils-MacBook-Pro.local (97203)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 18:49:03 -0400 Phils-MacBook-Pro.local (97203)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.00092 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 20:13:05 -0400 Phils-MacBook-Pro.local (97203)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 20:13:05 -0400 Phils-MacBook-Pro.local (97203)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.010739 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 20:13:06 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 20:13:06 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.000989 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 20:44:09 -0400 Phils-MacBook-Pro.local (97203)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 20:44:09 -0400 Phils-MacBook-Pro.local (97203)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.003292 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 20:55:23 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 20:55:23 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.002973 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 20:57:11 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-05-08 20:57:11 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 30.069335 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 21:00:13 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 21:00:13 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 182.045659 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 21:00:13 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-05-08 21:00:13 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.023583 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 21:03:59 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-05-08 21:03:59 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 198.12163 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 21:03:59 -0400 Phils-MacBook-Pro.local (97202)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-05-08 21:03:59 -0400 Phils-MacBook-Pro.local (97202)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-253.newrelic.com:443 after 0.015043 seconds: Failed to open TCP connection to collector-253.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2017-05-08 21:28:55 -0400 Phils-MacBook-Pro.local (98233)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-05-08 21:28:55 -0400 Phils-MacBook-Pro.local (98233)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 21:28:55 -0400 Phils-MacBook-Pro.local (98233)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-05-08 21:28:55 -0400 Phils-MacBook-Pro.local (98233)] INFO : Environment: development
+[2017-05-08 21:28:55 -0400 Phils-MacBook-Pro.local (98233)] INFO : Dispatcher: sidekiq
+[2017-05-08 21:28:55 -0400 Phils-MacBook-Pro.local (98233)] INFO : Application: My Application (Development)
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Installing Net instrumentation
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Installing Redis Instrumentation
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Installing Sequel instrumentation
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 21:28:56 -0400 Phils-MacBook-Pro.local (98233)] INFO : Finished instrumentation
+[2017-05-08 21:28:57 -0400 Phils-MacBook-Pro.local (98233)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Environment: development
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Dispatcher: puma
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Application: My Application (Development)
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Net instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Sinatra instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Redis Instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Sequel instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Installing Sidekiq instrumentation
+[2017-05-08 21:29:00 -0400 Phils-MacBook-Pro.local (98232)] INFO : Finished instrumentation
+[2017-05-08 21:29:01 -0400 Phils-MacBook-Pro.local (98232)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-05-08 21:29:03 -0400 Phils-MacBook-Pro.local (98233)] INFO : Starting Agent shutdown
+[2017-05-08 21:57:57 -0400 Phils-MacBook-Pro.local (97203)] INFO : Starting Agent shutdown
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Environment: development
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Dispatcher: sidekiq
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Application: My Application (Development)
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Installing Net instrumentation
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Installing Redis Instrumentation
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Installing Sequel instrumentation
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Installing Sidekiq instrumentation
+[2017-06-07 10:56:02 -0700 Phils-MacBook-Pro.local (30877)] INFO : Finished instrumentation
+[2017-06-07 10:56:04 -0700 Phils-MacBook-Pro.local (30877)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Environment: development
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Dispatcher: puma
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Application: My Application (Development)
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Net instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Sinatra instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Redis Instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Sequel instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Installing Sidekiq instrumentation
+[2017-06-07 10:56:05 -0700 Phils-MacBook-Pro.local (30876)] INFO : Finished instrumentation
+[2017-06-07 10:56:06 -0700 Phils-MacBook-Pro.local (30876)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-06-07 10:56:17 -0700 Phils-MacBook-Pro.local (30876)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-07 11:20:04 -0700 Phils-MacBook-Pro.local (30877)] INFO : Starting Agent shutdown
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Environment: development
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Dispatcher: sidekiq
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Application: My Application (Development)
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Installing Net instrumentation
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Installing Redis Instrumentation
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Installing Sequel instrumentation
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Installing Sidekiq instrumentation
+[2017-06-07 11:20:08 -0700 Phils-MacBook-Pro.local (31250)] INFO : Finished instrumentation
+[2017-06-07 11:20:10 -0700 Phils-MacBook-Pro.local (31250)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Environment: development
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Dispatcher: puma
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Application: My Application (Development)
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Net instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Sinatra instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Redis Instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Sequel instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Installing Sidekiq instrumentation
+[2017-06-07 11:20:14 -0700 Phils-MacBook-Pro.local (31249)] INFO : Finished instrumentation
+[2017-06-07 11:20:15 -0700 Phils-MacBook-Pro.local (31249)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-06-07 11:20:17 -0700 Phils-MacBook-Pro.local (31249)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-07 11:21:16 -0700 Phils-MacBook-Pro.local (31249)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2017-06-07 11:21:27 -0700 Phils-MacBook-Pro.local (31249)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2017-06-07 11:22:43 -0700 Phils-MacBook-Pro.local (31250)] INFO : Starting Agent shutdown
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Environment: development
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Dispatcher: sidekiq
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Application: My Application (Development)
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Installing Net instrumentation
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Installing Redis Instrumentation
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Installing Sequel instrumentation
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Installing Sidekiq instrumentation
+[2017-06-07 11:22:45 -0700 Phils-MacBook-Pro.local (31325)] INFO : Finished instrumentation
+[2017-06-07 11:22:48 -0700 Phils-MacBook-Pro.local (31325)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : Environment: development
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : Dispatcher: puma
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : Application: My Application (Development)
+[2017-06-07 11:22:52 -0700 Phils-MacBook-Pro.local (31324)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Net instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Sinatra instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Redis Instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Sequel instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Installing Sidekiq instrumentation
+[2017-06-07 11:22:53 -0700 Phils-MacBook-Pro.local (31324)] INFO : Finished instrumentation
+[2017-06-07 11:22:54 -0700 Phils-MacBook-Pro.local (31324)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-06-07 11:22:56 -0700 Phils-MacBook-Pro.local (31324)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-07 11:22:58 -0700 Phils-MacBook-Pro.local (31324)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2017-06-07 11:27:38 -0700 Phils-MacBook-Pro.local (31324)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Environment: development
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Dispatcher: sidekiq
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Application: My Application (Development)
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Installing Net instrumentation
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Installing Redis Instrumentation
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Installing Sequel instrumentation
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Installing Sidekiq instrumentation
+[2017-06-20 23:08:05 -0700 Phils-MacBook-Pro.local (71196)] INFO : Finished instrumentation
+[2017-06-20 23:08:08 -0700 Phils-MacBook-Pro.local (71196)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Starting the New Relic agent version 4.1.0.333 in "development" environment.
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/readup)
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Environment: development
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Dispatcher: puma
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Application: My Application (Development)
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Net instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Sinatra instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Redis Instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Sequel instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Installing Sidekiq instrumentation
+[2017-06-20 23:08:10 -0700 Phils-MacBook-Pro.local (71195)] INFO : Finished instrumentation
+[2017-06-20 23:08:11 -0700 Phils-MacBook-Pro.local (71195)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-06-20 23:08:13 -0700 Phils-MacBook-Pro.local (71195)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1627314/applications/48340381
+[2017-06-21 09:51:20 -0700 Phils-MacBook-Pro.local (71196)] INFO : Starting Agent shutdown
